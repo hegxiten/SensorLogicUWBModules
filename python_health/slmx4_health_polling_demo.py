@@ -17,7 +17,7 @@ from slmx4_health_wrapper import slmx4_health
 from slmx4_health_debug import *
 
 # Create a instance of the slmx4 health wrapper
-slmx4 = slmx4_health('/dev/ttyACM0') # Linux
+slmx4 = slmx4_health('COM21') # Linux
 # slmx4 = slmx4_health('COM3') # Windows
 
 # Open the USB VCOM connection
